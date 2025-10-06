@@ -1,0 +1,28 @@
+public class TestCylinder {
+    public static void main (String[] args){
+        Cylinder cy1 = new Cylinder();
+        // Đối tượng đường tròn được tạo theo bộ khởi tạo Cirlce
+        // Đối tượng hình trụ được tạo theo bộ khởi tạo Cylinder
+        System.out.println("Radius is " + cy1.getRadius()
+        + ", Height is " + cy1.getHeight()
+        + ", Color is " + cy1.getColor()
+        + ", Base area is " + cy1.getArea()
+        + ", Volume is " + cy1.getVolume());
+        // Radius is 1.0, Height is 1.0, Color is red,
+        // Base area is 3.141592653568793, Volume is 3.141592653568793
+        
+        Cylinder cy2 = new Cylinder(5.0, 2.0);
+            // Đường tròn được tạo ra theo bộ khởi tạo  Circle (radius)
+            // Hình trụ được tạo theo bộ khởi tạo Cylinder (height, color)
+            System.out.println("Radius is " + cy2.getRadius()
+            + ", Height is " + cy2.getHeight()
+            + ", Color is " + cy2.getColor()
+            + ", Base area is " + cy2.getArea()
+            + ", Volume is " + cy2.getVolume());
+
+        
+    
+        
+
+    }
+}
